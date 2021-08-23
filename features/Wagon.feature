@@ -18,6 +18,9 @@ Funcionalidade: Carroça
             | João   | true      | 1    |
             | Diego  | false     | 2    |
             | Diana  | false     | 3    |
+            | Mario  | false     | 2    |
+            | Marcim | true      | 6    |
+            
 
     Cenário: Revelar assentos disponíveis na carroça.
         Dada a entrada do passageiro "Sergio"
@@ -61,3 +64,4 @@ Funcionalidade: Carroça
         E a entrada do passageiro "Simone"
         Quando me perguntarem o total de refeições a bordo
         Então responderei que temos 8 refeições
+
